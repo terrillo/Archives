@@ -1,0 +1,12 @@
+bad:
+  description:
+    - Rain
+    - Raining
+    - Thunderstorms
+bike:
+  speed: > 10 MPH
+  main: Clear
+  time:
+    - > 5AM
+    - < 8PM
+  name: Tulsa

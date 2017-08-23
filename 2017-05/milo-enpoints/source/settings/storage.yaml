@@ -1,0 +1,9 @@
+D1:
+  topic: Single data sets
+  information: longtext
+  source: varchar
+D2:
+  topic: Date related data
+  information: longtext
+  source: varchar
+  stamp: timestamp (Default)
