@@ -1,0 +1,19 @@
+.css-grd-wrapper
+  display: grid
+  height: 50vh
+  grid-template-columns: 33% 33% 31%
+  grid-template-rows: 50% 50%
+  grid-gap: $scale * 2
+  @media screen and (max-width: 560px)
+    height: auto
+    display: block
+
+@for $i from 1 through 3
+  .gc-#{$i}
+    grid-column: $i
+  .gr-#{$i}
+    grid-row: $i
+  .gc-1-#{$i}
+    grid-column: 1 / #{$i}
+  .gr-1-#{$i}
+    grid-row: 1 / #{$i}

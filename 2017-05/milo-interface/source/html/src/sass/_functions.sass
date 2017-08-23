@@ -1,0 +1,5 @@
+@function apdative-color($color)
+  @if (lightness($color) > 50)
+  	@return $color-lightness-one
+  @else
+  	@return $color-lightness-two

@@ -1,0 +1,33 @@
+.weather-info
+  position: absolute
+  top: 0
+  left: 0
+  margin-top: $scale
+  padding: $scale * 2
+  text-align: left
+  @media screen and (max-width: 560px)
+    position: static
+    margin-top: 0
+
+.weather-title
+  font-size: 80px
+  @media screen and (max-width: 560px)
+    font-size: 60px
+    padding-top: $scale * 2
+
+.weather-sub-title
+  position: absolute
+  right: 0
+  padding: $scale * 2
+  font-size: 18px
+  text-transform: capitalize
+  @media screen and (max-width: 560px)
+    position: static
+    text-align: left
+    font-size: 13px
+
+.weather-max,
+.weather-min
+  margin-left: 0
+  opacity: 0.6
+  margin-top: $scale / 2

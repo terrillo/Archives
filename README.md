@@ -6,8 +6,9 @@ I have way too many projects!
 
 ## 2017-05
 - [Chatty Radio](2017-05/chattyradio/source) - React(JS) internet radio **#js**
-- [Milo-nl](2017-05/milo-nl/source) - Natural learning for a personal assistant **#python**
 - [Milo-endpoint](2017-05/milo-endpoints/source) - Python api server for a personal assistant **#python**
+- [Milo-interface](2017-05/milo-interface/source) - Public facing user interface **#python**
+- [Milo-nl](2017-05/milo-nl/source) - Natural learning for a personal assistant **#python**
 
 ## 2017-06
 - [dione-rest](2017-06/dione-rest/source) - Serverless.io todo app backend **#js**
