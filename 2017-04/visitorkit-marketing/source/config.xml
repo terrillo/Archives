@@ -1,0 +1,4 @@
+<config>
+  <var name="sitename" value="VisitorKIT"></var>
+  <var name="baseurl" value="http://beta.visitorkit.com.s3-website-us-east-1.amazonaws.com"></var>
+</config>

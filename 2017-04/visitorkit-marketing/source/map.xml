@@ -1,0 +1,52 @@
+<data>
+  <pages>
+    <page
+      priority="1.0"
+      path="/index.html"
+      template="home"
+      title="Web and Marketing Campaign Analytics"
+      keywords="VisitorKIT, url tracking, marketing analytics, marketing campaigns, web analytics, email comapign trakcking"
+      description="Powerful web and marketing campaign analytics for companies of all shapes and sizes.">
+    </page>
+    <page
+      priority="0.9"
+      path="/try-visitorkit.html"
+      template="try-visitorkit"
+      title="Get Started and try for Free"
+      keywords="marketing analytics, marketing campaigns, web analytics, email comapign trakcking"
+      description="Get Started and try for Free">
+    </page>
+    <page
+      priority="0.9"
+      path="/request-a-demo.html"
+      template="request-a-demo"
+      title="Request a Demo"
+      keywords="marketing analytics, marketing campaigns, web analytics, email comapign trakcking"
+      description="Request a VisitorKIT product demo">
+    </page>
+    <page
+      priority="0.9"
+      path="/marketing-campaign-analytics.html"
+      template="campaign-analytics"
+      title="Marketing Campaign Analytics"
+      keywords="website marketing, website hits, web marketing, marketing analytics, internet marketing"
+      description="Internet marketing campaign analytics service. Measure traffic and understand your visitors.">
+    </page>
+    <page
+      priority="0.9"
+      path="/website-analytics.html"
+      template="web-analytics"
+      title="Website Analytics"
+      keywords="website analytics, website hits, analytics chart, online analytics, analytics"
+      description="Free and enterprise webiste analytics tools to measure traffic. Easy to understand with reporting">
+    </page>
+    <page
+      priority="0.8"
+      path="/sitemap.html"
+      template="sitemap"
+      title="Sitemap"
+      keywords="sitemap, website analytics, website hits, analytics chart, online analytics, analytics"
+      description="VisitorKIT full website sitemap">
+    </page>
+  </pages>
+</data>
