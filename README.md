@@ -10,8 +10,8 @@ I have way too many projects!
 - [Milo-endpoint](2017-05/milo-endpoints/source) - Python api server for a personal assistant **#python**
 
 ## 2017-06
-- [dione-rest](2017-06/dione-rest/source) - Serverless.io todo app backend
-- [The One Precent](2017-06/The One Precent/source) - AWS Polly powered podcast
+- [dione-rest](2017-06/dione-rest/source) - Serverless.io todo app backend **#js**
+- [The One Precent](2017-06/TheOnePrecent/source) - AWS Polly powered podcast
 
 ## 2017-07
 - [todo](2017-07/todo/source) - A todo app built using Amazon Lambda & React(JS) **#js**
