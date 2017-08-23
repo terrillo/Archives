@@ -3,6 +3,7 @@ I have way too many projects!
 
 ## 2017-04
 - [midway](2017-04/midway/source) - The original api rest server for Milo AI **#php**
+- [the-anchoring](2017-04/the-anchoring/source) - Mostly messing around with AWS Polly **#python**
 - [Visitorkit](2017-04/visitorkit/source) - A mixpanel like react dashboard **#js**
 - [Visitorkit](2017-04/visitorkit-marketing/source) - The public marketing website for a google analytics like service **#js**
 
