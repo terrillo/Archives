@@ -1,0 +1,16 @@
+example,context
+weather,weather-general
+What's the weather,weather-general
+How is the weather in New York,weather-general
+weekend weather,weather-general
+Is it raining,weather-rain
+Is it rainy,weather-rain
+Will it rain tomorrow,weather-rain
+Is it snowing,weather-snow
+Is it snowy,weather-snow
+Will it snow tomorrow,weather-snow
+thunderstorm,weather-bad
+storm,weather-bad
+how bad is the weather?,weather-bad
+raining hard,weather-bad
+storming,weather-bad

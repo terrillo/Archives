@@ -1,0 +1,19 @@
+.container {
+  max-width: 900px; }
+
+.co-container {
+  overflow-x: hidden; }
+
+* {
+  box-sizing: border-box;
+  border-color: #f9f9f9;
+  text-decoration: none; }
+  *:hover {
+    text-decoration: none; }
+
+.co-bar * {
+  font-size: 12px !important;
+  text-align: left; }
+
+.bar-row > div:first-child {
+  background-color: #f9f9f9 !important; }

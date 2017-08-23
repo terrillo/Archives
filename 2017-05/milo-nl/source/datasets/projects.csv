@@ -1,0 +1,9 @@
+example,context
+create a new project,create-project
+new project,create-project
+lets build a new project,create-project
+open project,open-project
+open existing project,open-project
+open another project,open-project
+close project,close-project
+close this project,close-project

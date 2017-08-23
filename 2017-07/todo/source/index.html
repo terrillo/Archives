@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, minimal-ui">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <title>Todo</title>
+  <link rel="stylesheet" href="f7-icons/css/framework7-icons.css">
+  <link rel="stylesheet" href="css/framework7.ios.min.css">
+  <link rel="stylesheet" href="css/framework7.ios.colors.min.css">
+  <link rel="stylesheet" href="css/my-app.css">
+
+  <style>
+  .navbar-inner i {
+    opacity: 0.4;
+  }
+  .popover {
+    width: 200px;
+  }
+  .navbar-label-title {
+    line-height: 1.4;
+    margin-top: -4px;
+  }
+  .navbar-label {
+    display: block;
+    margin: 0;
+    padding: 0;
+    line-height: 1;
+    font-size: 10px;
+    opacity: 0.6;
+  }
+  .center {
+    left: 0 !important;
+  }
+  </style>
+
+</head>
+<body>
+    <div class="statusbar-overlay"></div>
+    <div class="panel-overlay"></div>
+
+    <div class="views">
+      <div class="view view-main">
+
+        <div class="navbar">
+          <div class="navbar-inner">
+            <div class="left">
+              <i class="f7-icons" onclick="mainView.router.loadPage('views/notebooks.html')" style="margin-right: 15px">drawers</i>
+            </div>
+            <div class="center" notebook-name></div>
+            <div class="right">
+              <i class="f7-icons" onclick="mainView.router.loadPage('views/settings.html')">gear</i></div>
+          </div>
+        </div>
+
+        <div class="pages navbar-fixed toolbar-fixed">
+          <div data-page="index" class="page">
+
+            <div class="page-content">
+
+              <div class="content-block-title">Task</div>
+              <div class="list-block">
+                <ul todo-list></ul>
+              </div>
+
+            </div>
+
+            <div class="toolbar tabbar tabbar-labels">
+              <div class="toolbar-inner">
+                <a href="#" add-task class="tab-link">
+                  <i class="f7-icons">add</i>
+                  <span class="tabbar-label">Task</span>
+                </a>
+                <a href="#tab3" class="tab-link">
+                  <i class="f7-icons">compose</i>
+                  <span class="tabbar-label">Note</span>
+                </a>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <script id="todo" type="x-tmpl-mustache">
+      <li class="swipeout">
+        <label class="swipeout-content label-checkbox item-content" todo-check="{{ id }}" >
+          <input type="checkbox" name="my-checkbox" value="{{ id }}" {{#checked}}checked{{/checked}}>
+          <div class="item-media">
+            <i class="icon icon-form-checkbox"></i>
+          </div>
+          <div class="item-inner">
+            <div class="item-title">{{ task }}</div>
+          </div>
+        </label>
+        <div class="swipeout-actions-right"><a href="#" todo-delete="{{ id }}" class="action2" style="">Delete</a></div>
+      </li>
+    </script>
+
+    <script id="scene-radio" type="x-tmpl-mustache">
+      <li>
+        <label class="label-checkbox item-content">
+          <input type="radio" name="f-scene-radio" radio="{{ id }}" value="{{ id }}">
+          <div class="item-media">
+            <i class="icon icon-form-checkbox"></i>
+          </div>
+          <div class="item-inner">
+            <div class="item-title">{{ name }}</div>
+          </div>
+        </label>
+      </li>
+    </script>
+
+    <script id="notebook-list-item" type="x-tmpl-mustache">
+      <li class="swipeout">
+        <div class="swipeout-content item-content" style=""  notebook-id="{{ id }}">
+          <div class="item-inner">
+            <div class="item-title">{{ name }}</div>
+          </div>
+        </div>
+        <div class="swipeout-actions-right"><a href="#" notebook-delete="{{ id }}" class="action2" style="">Delete</a></div>
+      </li>
+    </script>
+
+
+    <script type="text/javascript" src="js/libs/mustache.min.js"></script>
+    <script type="text/javascript" src="js/libs/framework7.min.js"></script>
+    <script type="text/javascript" src="js/libs/moment.min.js"></script>
+    <script type="text/javascript" src="js/DB.js?v=1"></script>
+    <script type="text/javascript" src="js/app.js?v=1"></script>
+    <script type="text/javascript" src="js/page-settings.js?v=1"></script>
+    <script type="text/javascript" src="js/page-compose.js?v=1"></script>
+    <script type="text/javascript" src="js/page-notebooks.js?v=1"></script>
+    <script type="text/javascript" src="js/page-welcome.js?v=1"></script>
+
+</body>
+</html>

@@ -1,0 +1,10 @@
+example,context
+Notifications,show-notifications
+what did I miss,show-notifications
+what happen,show-notifications
+show me previous events,show-notifications
+Do I have any messages,show-notifications
+any notifications,show-notifications
+Clear notifications,clear-notifications
+Delete notifications,clear-notifications
+done with notifications,clear-notifications
