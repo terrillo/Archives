@@ -17,6 +17,7 @@ I have way too many projects!
 - [dione-rest](2017-06/dione-rest/source) - Serverless.io todo app backend **#js**
 - [The One Precent](2017-06/TheOnePrecent/source) - AWS Polly powered podcast
 - [The Anchoring](2017-06/TheAnchoringDotCom/source) - The Anchoring podcast network website **#html#**
+- [Big Data Triathlon](2017-06/BigDataTriathlon/source) -  Big Data Triathlon information **#js**
 
 ## 2017-07
 - [todo](2017-07/todo/source) - A todo app built using Amazon Lambda & React(JS) **#js**
