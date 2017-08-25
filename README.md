@@ -9,6 +9,9 @@ I have way too many projects!
 - [Milo-nl](2017-05/milo-nl/source)  (Natural learning for a personal assistant) **#python**
 - [Milo-endpoint](2017-05/milo-endpoints/source)  (Python api server for a personal assistant) **#python**
 
+## 2017-06
+- [Project Projection](2017-06/project-projection/source) (Realtime WebSocket Server) **#js**
+
 ## 2017-07
 - [todo](2017-07/todo/source) (A todo app built using Amazon Lambda & React(JS)) **#js**
 - [command](2017-07/command/source) (A prototype game engine) **#js**
