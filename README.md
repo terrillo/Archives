@@ -7,14 +7,14 @@ I have way too many projects!
 ## 2015-08
 - [Stupid Twitter for Chrome](2017-04/Stupid-Twitter-Chrome/source) (A Chrome Extension for improving on the web) **#js**
 
+## 2017-02
+- [PHP-Documentation](2017-02/PHP-Documentation/source) - PHP documentation website
+
 ## 2017-04
 - [midway](2017-04/midway/source) - The original api rest server for Milo AI **#php**
 - [the-anchoring](2017-04/the-anchoring/source) - Mostly messing around with AWS Polly **#python**
 - [Visitorkit](2017-04/visitorkit/source) - A mixpanel like react dashboard **#js**
 - [Visitorkit](2017-04/visitorkit-marketing/source) - The public marketing website for a google analytics like service **#js**
-
-## 2017-02
-- [PHP-Documentation](2017-02/PHP-Documentation/source) - PHP documentation website
 
 ## 2017-05
 - [Chatty Radio](2017-05/chattyradio/source) - React(JS) internet radio **#js**
