@@ -1,0 +1,74 @@
+.helper {
+    display: inline-block;
+    vertical-align: top;
+    min-height: 1px; 
+    padding: 10px;
+    text-overflow: ellipsis;
+    float: left;
+}
+
+.re {
+	width: 100%;
+	position: relative;
+	z-index: 1;
+	text-overflow: ellipsis;
+}
+
+
+// Base Grid
+@for $i from 1 through 12 {
+    .re#{$i} { 
+	    @extend .helper;
+        width: 100% / 12 * $i;
+    }
+}
+
+// Mobile Default
+@media screen and (max-width: 560px) {
+	@for $i from 1 through 12 {
+	    .re#{$i} { 
+        	width: 100%;
+			padding: 5px;	    
+		}
+	}
+}
+
+// Tablet Override
+@for $i from 1 through 12 {
+    .re-md-#{$i} { 
+	    @extend .helper;
+		@media only screen and (max-width : 768px)  { 
+			width: 100% / 12 * $i;
+		}
+	}
+}
+
+// Phone Override
+@for $i from 1 through 12 {
+    .re-sm-#{$i} { 
+	    @extend .helper;
+		@media only screen and (max-width : 568px)  { 
+			width: 100% / 12 * $i;
+		}
+	}
+}
+
+
+// Custom Grid
+@for $i from 1 through $custom-rows {
+    .re-cs-#{$i} { 
+	    @extend .helper;
+        width: 100% / $custom-rows * $i;
+    }
+}
+
+
+// Mobile Custom
+@media screen and (max-width: 560px) {
+	@for $i from 1 through $custom-rows {
+	    .re-cs-#{$i} { 
+        	width: 100%;
+			padding: 5px;	    
+		}
+	}
+}

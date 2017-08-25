@@ -1,0 +1,62 @@
+// Wrap
+.wrap {
+    width: 100%;
+    margin: 0 auto;
+    @media all and (max-width: 1400px) {
+		max-width: 1200px;   
+	}
+    @media all and (min-width: 1200px) {
+		max-width: 1000px;   
+	}
+    @media all and (min-width: 1000px) {
+		padding: 10px;
+	}
+}
+
+.wrap:after,
+.re:after {
+	content: "";
+	display: table;
+	clear: both; 
+}
+
+// Float Left
+.re-left {
+	float: left;
+}
+.re-md-left {
+	@media only screen and (max-width: 568px) {
+		float: left;
+	}
+}
+
+.re-md-hide {
+	@media only screen and (max-width: 568px) {
+		display: none;
+	}
+}
+
+// Float Right
+.re-right {
+	float: right;
+}
+.re-md-right {
+	@media only screen and (max-width: 568px) {
+		float: right;
+	}
+}
+
+// No Padding
+.no-p {
+	padding: 0px;
+}
+
+// Re Print
+.re-print {
+	display: none;
+}
+@media only print { 
+	.re-print {
+		display: block;
+	}
+}

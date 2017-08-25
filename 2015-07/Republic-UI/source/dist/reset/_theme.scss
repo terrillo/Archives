@@ -1,0 +1,15 @@
+// Mark
+mark {
+	background: $accent;
+	color: #000;
+}
+
+::-moz-selection { /* Code for Firefox */
+    color: apdative-color($accent);
+    background: $accent;
+}
+
+::selection {
+    color: apdative-color($accent);
+    background: $accent;
+}
