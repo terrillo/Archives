@@ -1,0 +1,9 @@
+* {
+  line-height: 1.5 !important;
+  letter-spacing: 1.2px !important;
+}
+
+.chart-cta {
+  font-size: 24px;
+  font-weight: bold;
+}

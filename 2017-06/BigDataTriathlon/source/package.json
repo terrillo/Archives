@@ -1,0 +1,16 @@
+{
+  "name": "big-data-triathlon",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "moment": "^2.18.1",
+    "xml2js": "^0.4.17"
+  }
+}
